@@ -1,5 +1,5 @@
 /**
-  * @package cssecoST
+  * @package eyalb
   * css/scss/base/_globals.scss
   * Styles for frontend pages
   *
@@ -14,7 +14,11 @@ article {
 		min-height: $featured_height;
 	}
 	header.entry-header {
-		h1.entry-title {}
+		h1.entry-title {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
 	}
 	.entry-content {}
 	.entry-share {
@@ -40,26 +44,26 @@ article {
 		margin: 15px 0 40px;
 		padding: 0 0 10px;
 		.post-footer-container {
-			.footer-left {
-				.tags-list {
-					i {}
-					a {}
-					span {}
-				}
-			}	
-			.footer-right {
-				text-align: right;
-				a {}
-				i {
-					@media screen and (max-width: $csseco_bp_576) {
-						float: left;
-						margin-right: 5px;
-					}
-				}
-				@media screen and (max-width: $csseco_bp_576) {
-					text-align: left;
-				}
-			}
+//			.footer-left {
+//				.tags-list {
+//					i {}
+//					a {}
+//					span {}
+//				}
+//			}	
+//			.footer-right {
+//				text-align: right;
+//				a {}
+//				i {
+//					@media screen and (max-width: $csseco_bp_576) {
+//						float: left;
+//						margin-right: 5px;
+//					}
+//				}
+//				@media screen and (max-width: $csseco_bp_576) {
+//					text-align: left;
+//				}
+//			}
 		}
 	}
 }

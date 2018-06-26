@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package cssecoST
+  * @package eyalb
   * single.php
   */
 ?>
@@ -13,7 +13,7 @@
 					
 					the_post();
 					
-					cssecoST_save_post_views( get_the_ID() );
+					eyalb_save_post_views( get_the_ID() );
 					
 					get_template_part( 'includes/front/template-parts/single', get_post_format() );
 					

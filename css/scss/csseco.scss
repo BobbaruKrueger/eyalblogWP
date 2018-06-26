@@ -1,5 +1,5 @@
 /**
-  * @package cssecoST
+  * @package eyalb
   * css/scss/csseco.scss
   * Styles for frontend pages
   */
@@ -9,10 +9,15 @@
 ----------------------------------------------------------------
     # CSSeco Imports
     # Generic
-    # Navigation
+	# Bootstrap overide
     # Header
     # Footer
     # Globals and Posts Formats
+	# WP Widgets
+	# Comments
+	## Comments form
+	# Sidebar
+	# Front Page
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -28,18 +33,20 @@
 # Generic
 --------------------------------------------------------------*/
 body {
+	color: $csseco_primary-color;
 	font-family: $csseco_body_font_fira;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: greyscale;
 }
 
 a {
-	color: $csseco_primary-color;
+	color: $csseco_dark-grey;
 	text-decoration: none;
 	@include animate( color, 320ms );
 	&:hover,
 	&:focus {
 		color: $csseco_light-grey;
+		text-decoration: none;
 	}
 }
 
@@ -51,30 +58,222 @@ a {
 
 .table {
 	display: table;
-	width: 100%;
 	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 	.table-cell {
 		display: table-cell;
-		width: 100%;
 		height: 100%;
+		margin: 0;
+		padding: 0;
 		vertical-align: middle;
+		width: 100%;
+	}
+}
+
+.dnsm-inline {
+	display: none!important;
+	@media screen and (min-width: $csseco_bp_576) {
+		display: inline!important;
+	}
+}
+
+.din-none {
+	display: inline!important;
+	@media screen and (min-width: $csseco_bp_576) {
+		display: none!important;
+	}
+}
+
+.textL {
+	text-align: center;
+	@media screen and (min-width: $csseco_bp_576) {
+		text-align: left;
+	}
+	svg {
+		margin-right: 5px;
+	}
+}
+.textR {
+	text-align: center;
+	@media screen and (min-width: $csseco_bp_576) {
+		text-align: right;
+	}
+	svg {
+		margin-left: 5px;
 	}
 }
 
 /*--------------------------------------------------------------
-# Navigation
+# Bootstrap overide
 --------------------------------------------------------------*/
+.page-item.active .page-link {
+	background-color: $csseco_primary-color;
+	border-color: $csseco_primary-color;
+}
+
+.page-link {
+	color: $csseco_primary-color;
+	&:focus {
+		box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25);
+	}
+}
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 header#header.site_header {
+	margin: 0 0 30px 0;
 	.csseco_logo {
 		padding: 20px 0;
+		text-align: center;
+		@media screen and (min-width: $csseco_bp_768) {
+			text-align: left;
+		}
 		img.csseco_logo_img {
 			max-height: 70px;
 			max-width: 100%;
 			width: auto;
+		}
+	}
+	#header-menu {
+		border-color: rgba(0, 0, 0, .08);
+		border-style: solid;
+		border-width: 1px 0;
+		nav.csseco_navbar {
+			padding: .5rem 0;
+			@media screen and (min-width: $csseco_bp_992) {
+				padding: 0;
+			}
+			.csseco_nav_wrapper {
+				ul { // #1 parent
+					li {
+						position: relative;
+						a {
+							display: block;
+							font-size: 13px;
+							font-weight: 500;
+							line-height: 48px;
+							padding: 0 14px;
+							position: relative;
+							text-transform: uppercase;
+						}
+						ul.sub-menu { // #2 children
+							display: none;
+							list-style: none;
+							@media screen and (min-width: $csseco_bp_992) {
+								background: #FFF;
+								left: 0;
+								padding: 0;
+								position: absolute;	
+								z-index: 10;
+								min-width: 200px;
+								> li {
+									> ul.sub-menu { // #3 grandchildren
+										border-color: rgba(0, 0, 0, .08);
+										border-style: solid;
+										border-width: 1px 0;
+										padding: 0 0 0 10px;
+										position: static;
+										@media screen and (min-width: $csseco_bp_1200) {
+											left: 100%;
+											padding: 0;
+											position: absolute;
+											top: 0;
+										}
+									}
+								}
+							}
+							a {
+								@media screen and (min-width: $csseco_bp_992) {
+									line-height: normal;
+									padding: 10px 14px;	
+								}
+							}
+						}
+						span.csseco_ddev {
+							cursor: pointer;
+							display: block;
+							float: right;
+							font-size: 18px;
+							height: 48px;
+							padding: 11px 0 0 0;
+							position: absolute;
+							right: 0;
+							text-align: center;
+							top: 0;
+							width: 30px;
+							z-index: 2;
+							@include animate( all, 320ms );
+							@media screen and (min-width: $csseco_bp_1200) {
+								display: none;
+							}
+						}
+						&.opened {
+							> span.csseco_ddev {
+								transform: rotate(90deg);
+								@include animate( all, 320ms );
+							}
+						}
+						&.menu-item-has-children {
+							@media screen and (min-width: $csseco_bp_992) and (max-width: $csseco_bp_1200) {
+								padding-right: 16px;
+								> span.csseco_ddev {
+									font-size: 16px;
+									padding: 12px 0 0 0;
+								}
+							}
+						}
+						@media screen and (min-width: $csseco_bp_1200) {
+							&:hover {
+								> ul.sub-menu {
+									display: block;
+								}
+							}
+						}
+					}
+				}
+			}
+			.csseco_search_show_btn {
+				cursor: pointer;
+				position: absolute;
+				right: 0;
+				top: 17px;
+			}
+			.search-form {
+				background: #FFF;
+				border: 1px solid $csseco_primary-color;;
+				border-top: 3px solid $csseco_primary-color;;
+				border-radius: 0 0 5px 5px;
+				opacity: 0;
+				margin: 0 -10px 0 0;
+				padding: 10px 10px;
+				position: absolute;
+				right: 0;
+				top: 80px;
+				visibility: hidden;
+				z-index: -1;
+				@include animate( all, 320ms );
+				&.show {
+					opacity: 1;
+					top: 50px;
+					visibility: visible;
+					z-index: 10;
+					@include animate( all, 320ms );
+				}
+				&::after {
+					border-left: 5px solid transparent;
+					border-right: 5px solid transparent;
+					border-bottom: 5px solid black;
+					content: "";
+					height: 0;
+					position: absolute;
+					right: 10px;
+					top: -8px;
+					width: 0;  
+				}
+			}
 		}
 	}
 }
@@ -82,6 +281,58 @@ header#header.site_header {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+footer#footer.site_footer {
+	background: $csseco_primary-color;
+	color: #FFF;
+	margin: 50px 0 0 0;
+	padding: 40px 0 0 0;
+	.container {
+		>.row:first-child {
+			h3 {
+				font-size: 15px;
+				font-weight: bold;
+				margin: 0 0 20px 0;
+				padding: 0 0 5px 0;
+				position: relative;
+				text-transform: uppercase;
+				&::after {
+					content: '';
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					width: 80px;
+					height: 1px;
+					background-color: #38a6c1;
+					opacity: .3;
+				}
+				@media screen and (min-width: $csseco_bp_425) {
+					font-size: 22px;
+				}
+				@media screen and (min-width: $csseco_bp_992) {
+					font-size: 14px;
+				}
+			}
+		}
+		>.row:last-child {
+			> div {
+				margin: 0 0 50px 0;
+			}
+			h3 {
+				font-size: 15px;
+				margin: 0 0 20px 0;
+				padding: 0 0 5px 0;
+				position: relative;
+				text-transform: uppercase;
+			}
+			.fsm {
+				a {
+					font-size: 55px;
+					margin: 0 10px 0 0;
+				}
+			}
+		}
+	}
+}
 
 /*--------------------------------------------------------------
 # Globals and Posts Formats
@@ -99,25 +350,276 @@ header#header.site_header {
 @import 'posts-formats/status-pf';       // Post Format: Status
 @import 'posts-formats/chat-pf';         // Post Format: Chat
 
+/*--------------------------------------------------------------
+# WP Widgets
+--------------------------------------------------------------*/
+.csseco-widget {
+	margin: 0 0 50px 0;
+}
+// Recent posts and Popular posts
+.csseco-recent-posts-widget,
+.csseco-popular-posts-widget {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			margin: 0 0 20px 0;
+			&::before,
+			&::after {
+				clear: both;
+				content: "";
+				display: table;
+			}
+			
+			.fpst-featured-img {
+				float: left;
+				margin: 0 20px 0 0;
+				min-height: 80px;
+				width: 30%;
+				@media screen and (min-width: $csseco_bp_425) {
+					min-height: 110px;
+				}
+				@media screen and (min-width: $csseco_bp_768) {
+					min-height: 150px;
+				}
+				@media screen and (min-width: $csseco_bp_992) {
+					min-height: 80px;
+				}
+				img {
+					height: 100%;
+					width: 100%;
+				}
+			}
+			.cntnt {
+				float: left;
+			}
+			.fpst-title {
+				font-size: 14px;
+				padding: 0;
+				max-width: 100%;
+				white-space: nowrap; 
+				overflow: hidden;
+				text-overflow: ellipsis;
+				@media screen and (min-width: $csseco_bp_425) {
+					font-size: 22px;
+				}
+				@media screen and (min-width: $csseco_bp_992) {
+					font-size: 14px;
+				}
+			}
+			.fpst-date {
+				font-size: 11px;
+				@media screen and (min-width: $csseco_bp_425) {
+					font-size: 19px;
+				}
+				@media screen and (min-width: $csseco_bp_992) {
+					font-size: 11px;
+				}
+			}
+		}
+	}
+	
+}
 
+/*--------------------------------------------------------------
+# Comments
+--------------------------------------------------------------*/
+#comments.comments-area {
+	
+	/*--------------------------------------------------------------
+	## Comments form
+	--------------------------------------------------------------*/
+	input[type="submit"] {
+		background-color: $csseco_primary-color;
+		border-color: $csseco_primary-color;
+		&:hover {
+			background-color: $csseco_primary-color-hover;
+		}
+	}
+}
 
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+aside#secondary.widget-area {
+	h3.csseco-widget-title {
+		font-size: 15px;
+		font-weight: bold;
+		margin: 0 0 20px 0;
+		padding: 0 0 5px 0;
+		position: relative;
+		text-transform: uppercase;
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 80px;
+			height: 1px;
+			background-color: #38a6c1;
+			opacity: .3;
+		}
+		@media screen and (min-width: $csseco_bp_425) {
+			font-size: 22px;
+		}
+		@media screen and (min-width: $csseco_bp_992) {
+			font-size: 14px;
+		}
+	}
+	.csseco-widget {
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			li {}
+		}
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*--------------------------------------------------------------
+# Front Page
+--------------------------------------------------------------*/
+div.first3 {
+	list-style: none;
+	margin: 0 0 50px;
+	.ch {
+		border-width: 3px 0;
+		border-style: solid;
+  		border-color: transparent;
+		//float: left;
+		overflow: hidden;
+		position: relative;
+		height: 240px;
+		//width: 100%;
+		@media screen and (min-width: $csseco_bp_768) {
+			border-width: 0 6px;
+			height: 240px;
+			//width: 33.33333%;
+		}
+		@media screen and (min-width: $csseco_bp_992) {
+			height: 340px;
+		}
+		a {
+			display: block;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+			z-index: 1;
+			&::after {
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				display: block;
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				z-index: 0;
+				background: -moz-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,.7) 100%);
+				background: -webkit-gradient(linear,left top,left bottom,color-stop(40%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.7)));
+				background: -webkit-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,.7) 100%);
+				background: -o-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,.7) 100%);
+				background: -ms-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,.7) 100%);
+				background: linear-gradient(to bottom,rgba(0,0,0,0) 40%,rgba(0,0,0,.7) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#b3000000',GradientType=0);
+			}
+			.fp_feat_img {
+				height: 100%;
+				position: relative;
+				@include animate( transform, 320ms );
+			}
+			.fp_ttl_cont {
+				bottom: 0;
+				color: #FFF;
+				left: 0;
+				padding: 10px;
+				position: absolute;
+				right: 0;
+				text-align: center;
+				z-index: 20;
+			}
+			&:hover {
+				.fp_feat_img {
+					transform: scale3d(1.1,1.1,1);
+					-webkit-transform: scale3d(1.1,1.1,1);
+					@include animate( transform, 320ms );
+				}
+			}
+		}
+		
+	}
+}
+main.front-page {
+	h3.fp_ttl {
+		font-size: 15px;
+		font-weight: bold;
+		margin: 0 0 20px 0;
+		padding: 0 0 5px 0;
+		position: relative;
+		text-transform: uppercase;
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 80px;
+			height: 1px;
+			background-color: #38a6c1;
+			opacity: .3;
+		}
+	}
+	ul.next-cat {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			&.first {
+				height: 400px;
+				margin-bottom: 40px;
+				a {
+					display: block;
+					height: 100%;
+					overflow: hidden;
+					position: relative;
+					z-index: 1;
+					.fp_feat_img {
+						height: 100%;
+					}
+					.fp_ttl_cont {
+						bottom: 0;
+						color: #FFF;
+						left: 0;
+						padding: 10px;
+						position: absolute;
+						right: 0;
+						text-align: center;
+						z-index: 20;
+						white-space: nowrap; 
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+				}
+			}
+			&:not(.first) {
+				border-bottom: 1px solid rgba(0, 0, 0, .06);
+				margin-bottom: 35px;
+				padding-bottom: 35px;
+				a.imglnk,
+				a.imglnk span{
+					display: block;
+					height: 150px;
+					overflow: hidden;
+					position: relative;
+					z-index: 1;
+				}
+				&:last-child {
+					border: medium none;
+				}
+			}
+		}
+	}
+}
 
 
 

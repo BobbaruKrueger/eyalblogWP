@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package cssecoST
+  * @package eyalb
   * includes/front/functions-admin.php
   *
   */
@@ -50,13 +50,14 @@ function csseco_posted_footer() {
 	}
 	return '<div class="post-footer-container">
 				<div class="row">
-					<div class="col-12 col-sm-6 text-left">
+					<div class="col-12 col-sm-6 textL">
 						' . get_the_tag_list( '<div class="tags-list">
 						<i class="fa fa-tags" aria-hidden="true"></i> ', '<span>, </span>', '</div>' ) . '
 					</div>
-					<div class="col-12 col-sm-6 text-right">
+					<div class="col-12 col-sm-6 textR">
+						<i class="fa fa-comments din-none" aria-hidden="true"></i>
 						' . $comments . ' 
-						<i class="fa fa-comments" aria-hidden="true"></i>
+						<i class="fa fa-comments dnsm-inline" aria-hidden="true"></i>
 					</div>
 				</div>
 			</div>';
@@ -160,9 +161,9 @@ function csseco_grab_url() {
  */
 function csseco_post_navigation() {
 	$nav = '<div class="csseco_custom_post_navigation"><div class="row">';
-	$prev = get_previous_post_link( '<div class="post-link-nav-prev text-center"><i class="fa fa-chevron-left" aria-hidden="true"></i>%link</div>', '%title' );
+	$prev = get_previous_post_link( '<div class="post-link-nav-prev textL"><i class="fa fa-chevron-left" aria-hidden="true"></i>%link</div>', '%title' );
 	$nav .= '<div class="col-12 col-md-6">' . $prev . '</div>';
-	$next = get_next_post_link( '<div class="post-link-nav-next text-center">%link<i class="fa fa-chevron-right" aria-hidden="true"></i></div>', '%title' );
+	$next = get_next_post_link( '<div class="post-link-nav-next textR">%link<i class="fa fa-chevron-right" aria-hidden="true"></i></div>', '%title' );
 	$nav .= '<div class="col-12 col-md-6">' . $next . '</div>';
 	$nav .= ' </div></div>';// .row
 	return $nav;

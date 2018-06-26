@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package cssecoST
+  * @package eyalb
   * includes/front/enqueue.php
   */
 

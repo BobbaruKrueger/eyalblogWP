@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package cssecoST
+  * @package eyalb
   * includes/back/enqueue.php
   */
 
@@ -11,7 +11,8 @@ function csseco_load_admin_scripts( $hook ) {
 	
 	if ( // all pages($hook) that i want to have the style and scripts after if
 		( 'toplevel_page_csseco_theme_options_page' != $hook ) &&
-		( 'csseco-theme_page_csseco_theme_options_page_2' != $hook )
+		( 'csseco-theme_page_csseco_theme_options_page_2' != $hook ) &&
+		( 'csseco-theme_page_csseco_theme_options_page_3' != $hook )
 	   ) {
 		return;
 	}

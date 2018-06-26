@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package cssecoST
+  * @package eyalb
   * includes/back/templates/csseco-theme-opts.php
   *
   */
@@ -10,9 +10,9 @@
 
 <?php
 
-	function cssecoST_theme_options() {}
+	function eyalb_theme_options() {}
 
-	function cssecoST_post_formats() {
+	function eyalb_post_formats() {
 		$options = get_option( 'csseco_post_formats' );
 		$formats = array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' );
 		$output = '';
@@ -28,7 +28,7 @@
 <?php settings_errors(); ?>
 <form method="post" action="options.php">
 	<?php 
-		settings_fields( 'cssecoST-theme-support' );
+		settings_fields( 'eyalb-theme-support' );
 		do_settings_sections( 'csseco_theme_support_page' );
 		submit_button(); 
 	?>

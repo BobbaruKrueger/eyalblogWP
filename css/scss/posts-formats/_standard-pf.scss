@@ -1,25 +1,49 @@
 /**
- * @package CSSecoThemes
+ * @package eyalb
  * posts-formats/_standard-pf.scss
  *
  * Standard Post Format
  */
 
 article.csseco-format-standard {
-  header.entry-header {
-    h1.entry-title {}
+	header.entry-header {
+		h1.entry-title {}
     .entry-meta {}
-  }
-  .entry-content {
-    a.standard-featured-link {
-      .standard-featured {}
-    }
-    .entry-excerpt {}
-    .button-container {
-      > a.btn {}
-    }
-  }
-  footer.entry-footer {
-    /* ../base/_globals.scss */
-  }
+	}
+	.entry-content {
+		a.standard-featured-link {
+			.standard-featured {}
+		}
+		.entry-excerpt {}
+		.button-container {
+			> a.btn {
+				background-color: #000;
+				color: #fff;
+				display: inline-block;
+				font-size: 13px;
+				font-weight: 500;
+				line-height: 1;
+				padding: 10px 15px;
+				&:hover {
+					background-color: $csseco_primary-color-hover;
+				}
+			}
+		}
+  	}
+	footer.entry-footer {
+		/* ../base/_globals.scss */
+	}
+	&.hasFI {
+		.entry-content {
+			.entry-excerpt {
+				background: #FFF;
+				-webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+				-moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+				box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+				margin: -50px auto 0;
+				padding: 10px;
+				width: 80%;
+			}
+		}
+	}
 }

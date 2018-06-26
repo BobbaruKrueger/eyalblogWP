@@ -1,13 +1,21 @@
 <?php
 /**
- * @package cssecoST
+ * @package eyalb
  * includes/front/template-parts/content.php
  *
  * Standard Post Format
  */
 ?>
+ <?php
+	if ( csseco_get_post_attachment() ) {
+		$ficls = 'hasFI';
+	} else {
+		$ficls = '';
+	}
+?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class( array( 'csseco-format-standard' ) ); ?>>
+
+<article id="post-<?php the_ID(); ?>" <?php post_class( array( 'csseco-format-standard', $ficls ) ); ?>>
 	<header class="entry-header">
         <?php
             the_title(
@@ -29,12 +37,13 @@
 		<?php } ?>
 		<div class="entry-excerpt">
 			<?php the_excerpt(); ?>
+			<div class="button-container text-left">
+				<a href="<?php the_permalink(); ?>" class="btn btn-default">
+					<?php _e( 'Read More', 'eyalb' ); ?>
+				</a>
+			</div><!-- /.button-container -->
 		</div><!-- /.entry-excerpt -->
-		<div class="button-container text-right">
-			<a href="<?php the_permalink(); ?>" class="btn btn-default">
-				<?php _e( 'Read More', 'cssecoST' ); ?>
-			</a>
-		</div><!-- /.button-container -->
+		
 	</div><!-- /.entry-content -->
 	<footer class="entry-footer">
 	    <?php echo csseco_posted_footer(); ?>

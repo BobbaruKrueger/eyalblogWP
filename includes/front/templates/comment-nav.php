@@ -1,6 +1,6 @@
 <?php
 /**
- * @package cssecoST
+ * @package eyalb
  * includes/front/templates/comment-nav.php
  *
  * Comment Navigation Template
@@ -11,12 +11,12 @@
 		<div class="col-12 col-md-6">
 			<div class="comment-link-nav-prev">
 				<i class="fa fa-chevron-left" aria-hidden="true"></i>
-				<?php previous_comments_link( esc_html__( 'Older Comments','cssecoST' ) ); ?>
+				<?php previous_comments_link( esc_html__( 'Older Comments','eyalb' ) ); ?>
 			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="post-link-nav-next">
-				<?php next_comments_link( esc_html__( 'Newer Comments','cssecoST' ) ); ?>
+				<?php next_comments_link( esc_html__( 'Newer Comments','eyalb' ) ); ?>
 				<i class="fa fa-chevron-right" aria-hidden="true"></i>
 			</div>
 		</div>

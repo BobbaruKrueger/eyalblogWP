@@ -1,5 +1,5 @@
 /**
-  * @package cssecoST
+  * @package eyalb
   * js/csseco.admin.js
   */
 jQuery(document).ready(function($){

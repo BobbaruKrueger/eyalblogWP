@@ -1,8 +1,4 @@
 <?php
-/**
-  * @package cssecoST
-  * includes/vendor/bootsrap_pagination.php
-  */
 
 function csseco_bs_pagination($pages = '', $range = 2) {  
 	$showitems = ($range * 2) + 1;  
@@ -24,10 +20,10 @@ function csseco_bs_pagination($pages = '', $range = 2) {
         echo '<li class="page-item disabled hidden-md-down d-none d-lg-block"><span class="page-link">Page '.$paged.' of '.$pages.'</span></li>';
 	
 	 	if($paged > 2 && $paged > $range+1 && $showitems < $pages) 
-			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link(1).'" aria-label="First Page">&laquo;<span class="hidden-sm-down d-none d-md-block"> First</span></a></li>';
+			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link(1).'" aria-label="First Page">&laquo;<span class="dnsm-inline"> First</span></a></li>';
 	
 	 	if($paged > 1 && $showitems < $pages) 
-			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($paged - 1).'" aria-label="Previous Page">&lsaquo;<span class="hidden-sm-down d-none d-md-block"> Previous</span></a></li>';
+			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($paged - 1).'" aria-label="Previous Page">&lsaquo;<span class="dnsm-inline"> Previous</span></a></li>';
 	
 		for ($i=1; $i <= $pages; $i++) {
 		    if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
@@ -35,10 +31,10 @@ function csseco_bs_pagination($pages = '', $range = 2) {
 		}
 		
 		if ($paged < $pages && $showitems < $pages) 
-			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($paged + 1).'" aria-label="Next Page"><span class="hidden-sm-down d-none d-md-block">Next </span>&rsaquo;</a></li>';  
+			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($paged + 1).'" aria-label="Next Page"><span class="dnsm-inline">Next </span>&rsaquo;</a></li>';  
 	
 	 	if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) 
-			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($pages).'" aria-label="Last Page"><span class="hidden-sm-down d-none d-md-block">Last </span>&raquo;</a></li>';
+			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($pages).'" aria-label="Last Page"><span class="dnsm-inline">Last </span>&raquo;</a></li>';
 	
 	 	echo '</ul>';
         echo '</nav>';

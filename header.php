@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package cssecoST
+  * @package eyalb
   * header.php
   */
 ?>
@@ -38,16 +38,30 @@
 						
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12">
-						<?php
-                            wp_nav_menu( array( 
-                                'theme_location'        =>      'primary',
-                                'container'             =>      'nav',
-                                'container_class'       =>      'header_menu',
-                                'container_id'          =>      'cssecoMenu' //
-                            ) );
-                        ?>
+			</div>
+			<div id="header-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<nav class="navbar navbar-expand-lg csseco_navbar">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+									<i class="fas fa-bars"></i>
+								</button>
+								<?php
+									wp_nav_menu( array( 
+										'theme_location'        =>      'primary',
+										'menu_class'			=>		'navbar-nav ',
+										'container'             =>      'div',
+										'container_class'		=>		'collapse navbar-collapse csseco_nav_wrapper',
+										'container_id'			=>		'navbarNavDropdown'
+									) );
+								?>
+								<i class="fas fa-search csseco_search_show_btn"></i>
+								<?php
+									get_search_form();
+								?>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package cssecoST
+  * @package eyalb
   * includes/cleanup.php
   */
 /* remove version number(string) from js and css files */

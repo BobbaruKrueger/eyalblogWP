@@ -1,3 +1,1268 @@
-@import url(fonts/fonts.css);article.csseco-format-image header.entry-header .entry-excerpt.image-caption{background:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.5)));background:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 )}.alignnone{margin:5px 20px 20px 0}.aligncenter,div.aligncenter{display:block;margin:5px auto 5px auto}.alignright{float:right;margin:5px 0 20px 20px}.alignleft{float:left;margin:5px 20px 20px 0}a img.alignright{float:right;margin:5px 0 20px 20px}a img.alignnone{margin:5px 20px 20px 0}a img.alignleft{float:left;margin:5px 20px 20px 0}a img.aligncenter{display:block;margin-left:auto;margin-right:auto}.wp-caption{background:#fff;border:1px solid #f0f0f0;max-width:100%;padding:5px 3px 10px;text-align:center}.wp-caption.alignnone{margin:5px 20px 20px 0;clear:both}.wp-caption.aligncenter{clear:both}.wp-caption.alignleft{margin:5px 20px 20px 0}.wp-caption.alignright{margin:5px 0 20px 20px}.wp-caption img{border:0 none;height:auto;margin:0;max-width:100%;padding:0;width:auto}.wp-caption p.wp-caption-text{font-size:11px;line-height:17px;margin:0;padding:0 4px 5px}.screen-reader-text{border:0;clip:rect(1px, 1px, 1px, 1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute !important;width:1px;word-wrap:normal !important}.screen-reader-text:focus{background-color:#eee;clip:auto !important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}body{font-family:"Fira Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:greyscale}a{color:#000;text-decoration:none;-webkit-transition:color 320ms ease;transition:color 320ms ease}a:hover,a:focus{color:#898989}.bg-img-el{background-position:center center;background-size:cover;background-repeat:no-repeat}.table{display:table;width:100%;height:100%}.table .table-cell{display:table-cell;width:100%;height:100%;vertical-align:middle}header#header.site_header .csseco_logo{padding:20px 0}header#header.site_header .csseco_logo img.csseco_logo_img{max-height:70px;max-width:100%;width:auto}article .standard-featured{display:block;min-height:350px}article .entry-share h4{margin-bottom:0}article .entry-share ul{list-style-type:none;margin:0;padding:0}article .entry-share ul li{display:inline-block;margin-right:5px}article .entry-share ul li a{font-size:34px}article .entry-footer{border-bottom:3px solid #c5c4cd;margin:15px 0 40px;padding:0 0 10px}article .entry-footer .post-footer-container .footer-right{text-align:right}@media screen and (max-width: 576px){article .entry-footer .post-footer-container .footer-right i{float:left;margin-right:5px}}@media screen and (max-width: 576px){article .entry-footer .post-footer-container .footer-right{text-align:left}}article.csseco-single-post .entry-content .single-featured{border:1px solid #eee;padding:10px 10px;margin:0 0 5px 0;width:100%}@media screen and (min-width: 576px){article.csseco-single-post .entry-content .single-featured{padding:15px 20px}}@media screen and (min-width: 768px){article.csseco-single-post .entry-content .single-featured{padding:17px 50px}}@media screen and (min-width: 992px){article.csseco-single-post .entry-content .single-featured{padding:20px 75px}}article.csseco-format-image header.entry-header{min-height:350px;position:relative;text-align:center}article.csseco-format-image header.entry-header .entry-excerpt.image-caption{bottom:0;color:#898989;left:0;margin:0;padding:0 15px;position:absolute;right:0}article.csseco-format-image header.entry-header .entry-excerpt.image-caption p{margin:40px 0;font-size:14px}article.csseco-format-audio header.entry-header h1.entry-title{display:inline-block;width:auto}article.csseco-format-audio header.entry-header .entry-meta{display:inline-block;width:auto}article.csseco-format-audio .entry-content iframe{height:166px;width:100%}article.csseco-format-video header.entry-header h1.entry-title{text-align:center}article.csseco-format-gallery header.entry-header .csseco_carousel{overflow:hidden}article.csseco-format-gallery header.entry-header .csseco_carousel .carousel-inner .carousel-item{min-height:350px}article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control{font-size:26px}article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control .preview-thumb{border:2px solid #eee;border-radius:10px;bottom:10px;height:70px;opacity:0;position:absolute;visibility:hidden;width:70px;-webkit-transition:all 320ms ease;transition:all 320ms ease}article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control:hover .preview-thumb{opacity:1;visibility:visible;-webkit-transition:all 320ms ease;transition:all 320ms ease}article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-prev .preview-thumb{left:-100%}article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-prev:hover .preview-thumb{left:10px;opacity:1;visibility:visible;-webkit-transition:all 320ms ease;transition:all 320ms ease}article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-next .preview-thumb{right:-100%}article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-next:hover .preview-thumb{opacity:1;right:10px;visibility:visible;-webkit-transition:all 320ms ease;transition:all 320ms ease}article.csseco-format-quote header.entry-header h1.qote-content{font-size:34px;letter-spacing:0.03em;position:relative}article.csseco-format-quote header.entry-header h1.qote-content::before,article.csseco-format-quote header.entry-header h1.qote-content::after{color:#999999;display:inline-block;position:relative}article.csseco-format-quote header.entry-header h1.qote-content::before{content:'\201C'}article.csseco-format-quote header.entry-header h1.qote-content::after{content:'\201E'}article.csseco-format-quote header.entry-header h2.quote-author{font-size:18px;font-weight:bold;position:relative;text-align:right}article.csseco-format-quote header.entry-header h2.quote-author::before{content:'\2014 ';display:inline-block;margin:0 5px 0 0;position:relative}article.csseco-format-link header.entry-header h1.entry-title{text-align:center}article.csseco-format-link header.entry-header h1.entry-title i,article.csseco-format-link header.entry-header h1.entry-title svg{color:#999999;display:block;margin:7px auto 0;text-align:center;width:50px}article.csseco-format-aside .aside-featured{height:120px}
+/**
+  * @package eyalb
+  * css/scss/csseco.scss
+  * Styles for frontend pages
+  */
+/*--------------------------------------------------------------
+>>>>>> CSSeco Styles(usualy overwrite bootsrap styles :))
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+    # CSSeco Imports
+    # Generic
+	# Bootstrap overide
+    # Header
+    # Footer
+    # Globals and Posts Formats
+	# WP Widgets
+	# Comments
+	## Comments form
+	# Sidebar
+	# Front Page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# CSSeco Imports
+--------------------------------------------------------------*/
+@import url(fonts/fonts.css);
+/**
+ * @package eyalb
+ * css/scss/base/_variables.scss
+ */
+/**
+  * @package eyalb
+  * css/scss/base/_mixins.scss
+  */
+/**
+ * @package eyalb
+ * css/scss/base/_placeholders.scss
+ *
+ * %placeholder { text-shadow: 0 1px 2px rgba(0, 0, 0, .4); }
+ * @extend %placeholder;
+ *
+ * Placeholders
+ */
+/* line 12, scss/base/_placeholders.scss */
+article.csseco-format-image header.entry-header .entry-excerpt.image-caption {
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 );
+  /* IE6-9 */
+}
+
+/**
+ * @package eyalb
+ * css/scss/base/_wordpress.scss
+ */
+/* =WordPress Core
+-------------------------------------------------------------- */
+/* line 8, scss/base/_wordpress.scss */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 12, scss/base/_wordpress.scss */
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 18, scss/base/_wordpress.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 23, scss/base/_wordpress.scss */
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 28, scss/base/_wordpress.scss */
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 33, scss/base/_wordpress.scss */
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 37, scss/base/_wordpress.scss */
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 42, scss/base/_wordpress.scss */
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 48, scss/base/_wordpress.scss */
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 100%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+/* line 56, scss/base/_wordpress.scss */
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+  clear: both;
+}
+
+/* line 61, scss/base/_wordpress.scss */
+.wp-caption.aligncenter {
+  clear: both;
+}
+
+/* line 65, scss/base/_wordpress.scss */
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 69, scss/base/_wordpress.scss */
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+/* line 73, scss/base/_wordpress.scss */
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  width: auto;
+}
+
+/* line 82, scss/base/_wordpress.scss */
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+/* line 90, scss/base/_wordpress.scss */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+/* line 103, scss/base/_wordpress.scss */
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  -webkit-clip-path: none;
+          clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+/* line 35, scss/csseco.scss */
+body {
+  color: #000000;
+  font-family: "Fira Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale;
+}
+
+/* line 42, scss/csseco.scss */
+a {
+  color: #333333;
+  text-decoration: none;
+  -webkit-transition: color 320ms ease;
+  transition: color 320ms ease;
+}
+/* line 46, scss/csseco.scss */
+a:hover, a:focus {
+  color: #898989;
+  text-decoration: none;
+}
+
+/* line 53, scss/csseco.scss */
+.bg-img-el {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 59, scss/csseco.scss */
+.table {
+  display: table;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 65, scss/csseco.scss */
+.table .table-cell {
+  display: table-cell;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* line 75, scss/csseco.scss */
+.dnsm-inline {
+  display: none !important;
+}
+@media screen and (min-width: 576px) {
+  /* line 75, scss/csseco.scss */
+  .dnsm-inline {
+    display: inline !important;
+  }
+}
+
+/* line 82, scss/csseco.scss */
+.din-none {
+  display: inline !important;
+}
+@media screen and (min-width: 576px) {
+  /* line 82, scss/csseco.scss */
+  .din-none {
+    display: none !important;
+  }
+}
+
+/* line 89, scss/csseco.scss */
+.textL {
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  /* line 89, scss/csseco.scss */
+  .textL {
+    text-align: left;
+  }
+}
+/* line 94, scss/csseco.scss */
+.textL svg {
+  margin-right: 5px;
+}
+
+/* line 98, scss/csseco.scss */
+.textR {
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  /* line 98, scss/csseco.scss */
+  .textR {
+    text-align: right;
+  }
+}
+/* line 103, scss/csseco.scss */
+.textR svg {
+  margin-left: 5px;
+}
+
+/*--------------------------------------------------------------
+# Bootstrap overide
+--------------------------------------------------------------*/
+/* line 111, scss/csseco.scss */
+.page-item.active .page-link {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+/* line 116, scss/csseco.scss */
+.page-link {
+  color: #000000;
+}
+/* line 118, scss/csseco.scss */
+.page-link:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+/* line 126, scss/csseco.scss */
+header#header.site_header {
+  margin: 0 0 30px 0;
+}
+/* line 128, scss/csseco.scss */
+header#header.site_header .csseco_logo {
+  padding: 20px 0;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  /* line 128, scss/csseco.scss */
+  header#header.site_header .csseco_logo {
+    text-align: left;
+  }
+}
+/* line 134, scss/csseco.scss */
+header#header.site_header .csseco_logo img.csseco_logo_img {
+  max-height: 70px;
+  max-width: 100%;
+  width: auto;
+}
+/* line 140, scss/csseco.scss */
+header#header.site_header #header-menu {
+  border-color: rgba(0, 0, 0, 0.08);
+  border-style: solid;
+  border-width: 1px 0;
+}
+/* line 144, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar {
+  padding: .5rem 0;
+}
+@media screen and (min-width: 992px) {
+  /* line 144, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar {
+    padding: 0;
+  }
+}
+/* line 151, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li {
+  position: relative;
+}
+/* line 153, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li a {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 48px;
+  padding: 0 14px;
+  position: relative;
+  text-transform: uppercase;
+}
+/* line 162, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li ul.sub-menu {
+  display: none;
+  list-style: none;
+}
+@media screen and (min-width: 992px) {
+  /* line 162, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li ul.sub-menu {
+    background: #FFF;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+    min-width: 200px;
+  }
+  /* line 173, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li ul.sub-menu > li > ul.sub-menu {
+    border-color: rgba(0, 0, 0, 0.08);
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 0 0 0 10px;
+    position: static;
+  }
+}
+@media screen and (min-width: 992px) and (min-width: 1200px) {
+  /* line 173, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li ul.sub-menu > li > ul.sub-menu {
+    left: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 188, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li ul.sub-menu a {
+    line-height: normal;
+    padding: 10px 14px;
+  }
+}
+/* line 195, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li span.csseco_ddev {
+  cursor: pointer;
+  display: block;
+  float: right;
+  font-size: 18px;
+  height: 48px;
+  padding: 11px 0 0 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 30px;
+  z-index: 2;
+  -webkit-transition: all 320ms ease;
+  transition: all 320ms ease;
+}
+@media screen and (min-width: 1200px) {
+  /* line 195, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li span.csseco_ddev {
+    display: none;
+  }
+}
+/* line 214, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li.opened > span.csseco_ddev {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: all 320ms ease;
+  transition: all 320ms ease;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 219, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li.menu-item-has-children {
+    padding-right: 16px;
+  }
+  /* line 222, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li.menu-item-has-children > span.csseco_ddev {
+    font-size: 16px;
+    padding: 12px 0 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 230, scss/csseco.scss */
+  header#header.site_header #header-menu nav.csseco_navbar .csseco_nav_wrapper ul li:hover > ul.sub-menu {
+    display: block;
+  }
+}
+/* line 238, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .csseco_search_show_btn {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 17px;
+}
+/* line 244, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .search-form {
+  background: #FFF;
+  border: 1px solid #000000;
+  border-top: 3px solid #000000;
+  border-radius: 0 0 5px 5px;
+  opacity: 0;
+  margin: 0 -10px 0 0;
+  padding: 10px 10px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  visibility: hidden;
+  z-index: -1;
+  -webkit-transition: all 320ms ease;
+  transition: all 320ms ease;
+}
+/* line 258, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .search-form.show {
+  opacity: 1;
+  top: 50px;
+  visibility: visible;
+  z-index: 10;
+  -webkit-transition: all 320ms ease;
+  transition: all 320ms ease;
+}
+/* line 265, scss/csseco.scss */
+header#header.site_header #header-menu nav.csseco_navbar .search-form::after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 10px;
+  top: -8px;
+  width: 0;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+/* line 284, scss/csseco.scss */
+footer#footer.site_footer {
+  background: #000000;
+  color: #FFF;
+  margin: 50px 0 0 0;
+  padding: 40px 0 0 0;
+}
+/* line 291, scss/csseco.scss */
+footer#footer.site_footer .container > .row:first-child h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  padding: 0 0 5px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+/* line 298, scss/csseco.scss */
+footer#footer.site_footer .container > .row:first-child h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 1px;
+  background-color: #38a6c1;
+  opacity: .3;
+}
+@media screen and (min-width: 425px) {
+  /* line 291, scss/csseco.scss */
+  footer#footer.site_footer .container > .row:first-child h3 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 291, scss/csseco.scss */
+  footer#footer.site_footer .container > .row:first-child h3 {
+    font-size: 14px;
+  }
+}
+/* line 317, scss/csseco.scss */
+footer#footer.site_footer .container > .row:last-child > div {
+  margin: 0 0 50px 0;
+}
+/* line 320, scss/csseco.scss */
+footer#footer.site_footer .container > .row:last-child h3 {
+  font-size: 15px;
+  margin: 0 0 20px 0;
+  padding: 0 0 5px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+/* line 328, scss/csseco.scss */
+footer#footer.site_footer .container > .row:last-child .fsm a {
+  font-size: 55px;
+  margin: 0 10px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Globals and Posts Formats
+--------------------------------------------------------------*/
+/**
+  * @package eyalb
+  * css/scss/base/_globals.scss
+  * Styles for frontend pages
+  *
+  * Global Elements
+  *
+  *
+  * Article posts footer ** the footer is the same on all post formats
+  */
+/* line 12, scss/base/_globals.scss */
+article .standard-featured {
+  display: block;
+  min-height: 350px;
+}
+/* line 17, scss/base/_globals.scss */
+article header.entry-header h1.entry-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 25, scss/base/_globals.scss */
+article .entry-share h4 {
+  margin-bottom: 0;
+}
+/* line 28, scss/base/_globals.scss */
+article .entry-share ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 32, scss/base/_globals.scss */
+article .entry-share ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+/* line 35, scss/base/_globals.scss */
+article .entry-share ul li a {
+  font-size: 34px;
+}
+/* line 42, scss/base/_globals.scss */
+article .entry-footer {
+  border-bottom: 3px solid #c5c4cd;
+  margin: 15px 0 40px;
+  padding: 0 0 10px;
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_single.scss
+ *
+ * Single Post Template
+ */
+/* line 14, scss/posts-formats/_single.scss */
+article.csseco-single-post .entry-content .single-featured {
+  border: 1px solid #eee;
+  padding: 10px 10px;
+  margin: 0 0 5px 0;
+  width: 100%;
+}
+@media screen and (min-width: 576px) {
+  /* line 14, scss/posts-formats/_single.scss */
+  article.csseco-single-post .entry-content .single-featured {
+    padding: 15px 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 14, scss/posts-formats/_single.scss */
+  article.csseco-single-post .entry-content .single-featured {
+    padding: 17px 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 14, scss/posts-formats/_single.scss */
+  article.csseco-single-post .entry-content .single-featured {
+    padding: 20px 75px;
+  }
+}
+/* line 31, scss/posts-formats/_single.scss */
+article.csseco-single-post footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_standard-pf.scss
+ *
+ * Standard Post Format
+ */
+/* line 19, scss/posts-formats/_standard-pf.scss */
+article.csseco-format-standard .entry-content .button-container > a.btn {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 10px 15px;
+}
+/* line 27, scss/posts-formats/_standard-pf.scss */
+article.csseco-format-standard .entry-content .button-container > a.btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 33, scss/posts-formats/_standard-pf.scss */
+article.csseco-format-standard footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+/* line 38, scss/posts-formats/_standard-pf.scss */
+article.csseco-format-standard.hasFI .entry-content .entry-excerpt {
+  background: #FFF;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  margin: -50px auto 0;
+  padding: 10px;
+  width: 80%;
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_image-pf.scss
+ *
+ * Image Post Format
+ */
+/* line 10, scss/posts-formats/_image-pf.scss */
+article.csseco-format-image a:hover {
+  color: #000000;
+}
+/* line 14, scss/posts-formats/_image-pf.scss */
+article.csseco-format-image header.entry-header {
+  min-height: 350px;
+  position: relative;
+  text-align: center;
+}
+/* line 18, scss/posts-formats/_image-pf.scss */
+article.csseco-format-image header.entry-header h1.entry-title {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0;
+  padding: .5rem 0;
+}
+/* line 23, scss/posts-formats/_image-pf.scss */
+article.csseco-format-image header.entry-header .entry-meta {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0 0 .5rem 0;
+}
+/* line 28, scss/posts-formats/_image-pf.scss */
+article.csseco-format-image header.entry-header .entry-excerpt.image-caption {
+  bottom: 0;
+  color: #898989;
+  left: 0;
+  margin: 0;
+  padding: 0 15px;
+  position: absolute;
+  right: 0;
+}
+/* line 37, scss/posts-formats/_image-pf.scss */
+article.csseco-format-image header.entry-header .entry-excerpt.image-caption p {
+  margin: 40px 0;
+  font-size: 14px;
+}
+/* line 44, scss/posts-formats/_image-pf.scss */
+article.csseco-format-image footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_audio-pf.scss
+ *
+ * Audio Post Format style
+ */
+/* line 10, scss/posts-formats/_audio-pf.scss */
+article.csseco-format-audio header.entry-header h1.entry-title {
+  display: inline-block;
+  width: auto;
+}
+/* line 15, scss/posts-formats/_audio-pf.scss */
+article.csseco-format-audio header.entry-header .entry-meta {
+  display: inline-block;
+  width: auto;
+}
+/* line 21, scss/posts-formats/_audio-pf.scss */
+article.csseco-format-audio .entry-content iframe {
+  height: 166px;
+  width: 100%;
+}
+/* line 26, scss/posts-formats/_audio-pf.scss */
+article.csseco-format-audio footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_video-pf.scss
+ *
+ * Video Post Format
+ */
+/* line 10, scss/posts-formats/_video-pf.scss */
+article.csseco-format-video header.entry-header h1.entry-title {
+  text-align: center;
+}
+/* line 20, scss/posts-formats/_video-pf.scss */
+article.csseco-format-video footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_gallery-pf.scss
+ *
+ * Gallery Post Format style
+ */
+/* line 10, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel {
+  overflow: hidden;
+}
+/* line 13, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel .carousel-inner .carousel-item {
+  min-height: 350px;
+}
+/* line 17, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control {
+  font-size: 26px;
+}
+/* line 19, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control .preview-thumb {
+  border: 2px solid #eee;
+  border-radius: 10px;
+  bottom: 10px;
+  height: 70px;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 70px;
+  -webkit-transition: all 320ms ease;
+  transition: all 320ms ease;
+}
+/* line 31, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control:hover .preview-thumb {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 320ms ease;
+  transition: all 320ms ease;
+}
+/* line 39, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-prev .preview-thumb {
+  left: -100%;
+}
+/* line 43, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-prev:hover .preview-thumb {
+  left: 10px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 320ms ease;
+  transition: all 320ms ease;
+}
+/* line 52, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-next .preview-thumb {
+  right: -100%;
+}
+/* line 56, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-next:hover .preview-thumb {
+  opacity: 1;
+  right: 10px;
+  visibility: visible;
+  -webkit-transition: all 320ms ease;
+  transition: all 320ms ease;
+}
+/* line 70, scss/posts-formats/_gallery-pf.scss */
+article.csseco-format-gallery footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_quote-pf.scss
+ *
+ * Quote Post Format style
+ */
+/* line 10, scss/posts-formats/_quote-pf.scss */
+article.csseco-format-quote header.entry-header h1.qote-content {
+  font-size: 34px;
+  letter-spacing: 0.03em;
+  position: relative;
+}
+/* line 15, scss/posts-formats/_quote-pf.scss */
+article.csseco-format-quote header.entry-header h1.qote-content::before, article.csseco-format-quote header.entry-header h1.qote-content::after {
+  color: #999999;
+  display: inline-block;
+  position: relative;
+}
+/* line 21, scss/posts-formats/_quote-pf.scss */
+article.csseco-format-quote header.entry-header h1.qote-content::before {
+  content: '\201C';
+}
+/* line 24, scss/posts-formats/_quote-pf.scss */
+article.csseco-format-quote header.entry-header h1.qote-content::after {
+  content: '\201E';
+}
+/* line 28, scss/posts-formats/_quote-pf.scss */
+article.csseco-format-quote header.entry-header h2.quote-author {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  text-align: right;
+}
+/* line 33, scss/posts-formats/_quote-pf.scss */
+article.csseco-format-quote header.entry-header h2.quote-author::before {
+  content: '\2014 ';
+  display: inline-block;
+  margin: 0 5px 0 0;
+  position: relative;
+}
+/* line 41, scss/posts-formats/_quote-pf.scss */
+article.csseco-format-quote footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_link-pf.scss
+ *
+ * Link Post Format style
+ */
+/* line 10, scss/posts-formats/_link-pf.scss */
+article.csseco-format-link header.entry-header h1.entry-title {
+  text-align: center;
+}
+/* line 12, scss/posts-formats/_link-pf.scss */
+article.csseco-format-link header.entry-header h1.entry-title i,
+article.csseco-format-link header.entry-header h1.entry-title svg {
+  color: #999999;
+  display: block;
+  margin: 7px auto 0;
+  text-align: center;
+  width: 50px;
+}
+/* line 22, scss/posts-formats/_link-pf.scss */
+article.csseco-format-link footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_aside-pf.scss
+ *
+ * Aside Post Format style
+ */
+/* line 9, scss/posts-formats/_aside-pf.scss */
+article.csseco-format-aside .aside-featured {
+  height: 120px;
+}
+/* line 18, scss/posts-formats/_aside-pf.scss */
+article.csseco-format-aside footer.entry-footer {
+  /* ../base/_globals.scss */
+}
+
+/**
+ * @package eyalb
+ * posts-formats/_status-pf.scss
+ *
+ * Status Post Format style
+ */
+/**
+ * @package eyalb
+ * posts-formats/_chat-pf.scss
+ *
+ * Chat Post Format style
+ */
+/*--------------------------------------------------------------
+# WP Widgets
+--------------------------------------------------------------*/
+/* line 356, scss/csseco.scss */
+.csseco-widget {
+  margin: 0 0 50px 0;
+}
+
+/* line 362, scss/csseco.scss */
+.csseco-recent-posts-widget ul,
+.csseco-popular-posts-widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 366, scss/csseco.scss */
+.csseco-recent-posts-widget ul li,
+.csseco-popular-posts-widget ul li {
+  margin: 0 0 20px 0;
+}
+/* line 368, scss/csseco.scss */
+.csseco-recent-posts-widget ul li::before, .csseco-recent-posts-widget ul li::after,
+.csseco-popular-posts-widget ul li::before,
+.csseco-popular-posts-widget ul li::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 375, scss/csseco.scss */
+.csseco-recent-posts-widget ul li .fpst-featured-img,
+.csseco-popular-posts-widget ul li .fpst-featured-img {
+  float: left;
+  margin: 0 20px 0 0;
+  min-height: 80px;
+  width: 30%;
+}
+@media screen and (min-width: 425px) {
+  /* line 375, scss/csseco.scss */
+  .csseco-recent-posts-widget ul li .fpst-featured-img,
+  .csseco-popular-posts-widget ul li .fpst-featured-img {
+    min-height: 110px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 375, scss/csseco.scss */
+  .csseco-recent-posts-widget ul li .fpst-featured-img,
+  .csseco-popular-posts-widget ul li .fpst-featured-img {
+    min-height: 150px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 375, scss/csseco.scss */
+  .csseco-recent-posts-widget ul li .fpst-featured-img,
+  .csseco-popular-posts-widget ul li .fpst-featured-img {
+    min-height: 80px;
+  }
+}
+/* line 389, scss/csseco.scss */
+.csseco-recent-posts-widget ul li .fpst-featured-img img,
+.csseco-popular-posts-widget ul li .fpst-featured-img img {
+  height: 100%;
+  width: 100%;
+}
+/* line 394, scss/csseco.scss */
+.csseco-recent-posts-widget ul li .cntnt,
+.csseco-popular-posts-widget ul li .cntnt {
+  float: left;
+}
+/* line 397, scss/csseco.scss */
+.csseco-recent-posts-widget ul li .fpst-title,
+.csseco-popular-posts-widget ul li .fpst-title {
+  font-size: 14px;
+  padding: 0;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media screen and (min-width: 425px) {
+  /* line 397, scss/csseco.scss */
+  .csseco-recent-posts-widget ul li .fpst-title,
+  .csseco-popular-posts-widget ul li .fpst-title {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 397, scss/csseco.scss */
+  .csseco-recent-posts-widget ul li .fpst-title,
+  .csseco-popular-posts-widget ul li .fpst-title {
+    font-size: 14px;
+  }
+}
+/* line 411, scss/csseco.scss */
+.csseco-recent-posts-widget ul li .fpst-date,
+.csseco-popular-posts-widget ul li .fpst-date {
+  font-size: 11px;
+}
+@media screen and (min-width: 425px) {
+  /* line 411, scss/csseco.scss */
+  .csseco-recent-posts-widget ul li .fpst-date,
+  .csseco-popular-posts-widget ul li .fpst-date {
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 411, scss/csseco.scss */
+  .csseco-recent-posts-widget ul li .fpst-date,
+  .csseco-popular-posts-widget ul li .fpst-date {
+    font-size: 11px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Comments
+--------------------------------------------------------------*/
+/* line 428, scss/csseco.scss */
+#comments.comments-area {
+  /*--------------------------------------------------------------
+  ## Comments form
+  --------------------------------------------------------------*/
+}
+/* line 433, scss/csseco.scss */
+#comments.comments-area input[type="submit"] {
+  background-color: #000000;
+  border-color: #000000;
+}
+/* line 436, scss/csseco.scss */
+#comments.comments-area input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+/* line 446, scss/csseco.scss */
+aside#secondary.widget-area h3.csseco-widget-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  padding: 0 0 5px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+/* line 453, scss/csseco.scss */
+aside#secondary.widget-area h3.csseco-widget-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 1px;
+  background-color: #38a6c1;
+  opacity: .3;
+}
+@media screen and (min-width: 425px) {
+  /* line 446, scss/csseco.scss */
+  aside#secondary.widget-area h3.csseco-widget-title {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 446, scss/csseco.scss */
+  aside#secondary.widget-area h3.csseco-widget-title {
+    font-size: 14px;
+  }
+}
+/* line 471, scss/csseco.scss */
+aside#secondary.widget-area .csseco-widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Front Page
+--------------------------------------------------------------*/
+/* line 483, scss/csseco.scss */
+div.first3 {
+  list-style: none;
+  margin: 0 0 50px;
+}
+/* line 486, scss/csseco.scss */
+div.first3 .ch {
+  border-width: 3px 0;
+  border-style: solid;
+  border-color: transparent;
+  overflow: hidden;
+  position: relative;
+  height: 240px;
+}
+@media screen and (min-width: 768px) {
+  /* line 486, scss/csseco.scss */
+  div.first3 .ch {
+    border-width: 0 6px;
+    height: 240px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 486, scss/csseco.scss */
+  div.first3 .ch {
+    height: 340px;
+  }
+}
+/* line 503, scss/csseco.scss */
+div.first3 .ch a {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+/* line 509, scss/csseco.scss */
+div.first3 .ch a::after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#b3000000',GradientType=0);
+}
+/* line 527, scss/csseco.scss */
+div.first3 .ch a .fp_feat_img {
+  height: 100%;
+  position: relative;
+  -webkit-transition: transform 320ms ease;
+  -webkit-transition: -webkit-transform 320ms ease;
+  transition: -webkit-transform 320ms ease;
+  transition: transform 320ms ease;
+  transition: transform 320ms ease, -webkit-transform 320ms ease;
+}
+/* line 532, scss/csseco.scss */
+div.first3 .ch a .fp_ttl_cont {
+  bottom: 0;
+  color: #FFF;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  z-index: 20;
+}
+/* line 543, scss/csseco.scss */
+div.first3 .ch a:hover .fp_feat_img {
+  transform: scale3d(1.1, 1.1, 1);
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+  -webkit-transition: transform 320ms ease;
+  -webkit-transition: -webkit-transform 320ms ease;
+  transition: -webkit-transform 320ms ease;
+  transition: transform 320ms ease;
+  transition: transform 320ms ease, -webkit-transform 320ms ease;
+}
+
+/* line 554, scss/csseco.scss */
+main.front-page h3.fp_ttl {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  padding: 0 0 5px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+/* line 561, scss/csseco.scss */
+main.front-page h3.fp_ttl::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 1px;
+  background-color: #38a6c1;
+  opacity: .3;
+}
+/* line 572, scss/csseco.scss */
+main.front-page ul.next-cat {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 577, scss/csseco.scss */
+main.front-page ul.next-cat li.first {
+  height: 400px;
+  margin-bottom: 40px;
+}
+/* line 580, scss/csseco.scss */
+main.front-page ul.next-cat li.first a {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+/* line 586, scss/csseco.scss */
+main.front-page ul.next-cat li.first a .fp_feat_img {
+  height: 100%;
+}
+/* line 589, scss/csseco.scss */
+main.front-page ul.next-cat li.first a .fp_ttl_cont {
+  bottom: 0;
+  color: #FFF;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  z-index: 20;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 604, scss/csseco.scss */
+main.front-page ul.next-cat li:not(.first) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+}
+/* line 608, scss/csseco.scss */
+main.front-page ul.next-cat li:not(.first) a.imglnk,
+main.front-page ul.next-cat li:not(.first) a.imglnk span {
+  display: block;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+/* line 616, scss/csseco.scss */
+main.front-page ul.next-cat li:not(.first):last-child {
+  border: medium none;
+}
 
 /*# sourceMappingURL=csseco.css.map */

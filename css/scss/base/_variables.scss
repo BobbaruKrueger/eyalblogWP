@@ -1,9 +1,10 @@
 /**
- * @package cssecoST
+ * @package eyalb
  * css/scss/base/_variables.scss
  */
 
 // Screen Sizes
+$csseco_bp_425					: 				425px; 	// Small screen 
 $csseco_bp_576					: 				576px; 	// Small screen 
 $csseco_bp_768					: 				768px; 	// Medium screen
 $csseco_bp_992					: 				992px; 	// Large screen
@@ -17,9 +18,10 @@ $csseco_body_font_roboto		: 				'Roboto', 'Helvetica Neue', 'Helvetica', Arial, 
 
 // Colors
 $csseco_primary-color			: 				#000000;
+$csseco_primary-color-hover		: 				rgba(0, 0, 0, .8);
 $csseco_dark-grey				: 				#333333;
 $csseco_light-grey				: 				#898989;
 $csseco_lighter-grey			: 				#F1F1F1;
 
-// Header
+// other
 $featured_height				:           	350px;

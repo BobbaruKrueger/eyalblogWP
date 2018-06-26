@@ -1,6 +1,6 @@
 <?php
 /**
- * @package cssecoST
+ * @package eyalb
  * includes/front/template-parts/single.php
  *
  * Single Post Tempalte

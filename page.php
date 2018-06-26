@@ -1,7 +1,7 @@
 <?php
 /**
   * @package eyalb
-  * index.php
+  * page.php
   */
 ?>
 <?php get_header(); ?>
@@ -11,17 +11,10 @@
 			if( have_posts() ) {
 				while( have_posts() ) {
 					the_post();
-					get_template_part( 'includes/front/template-parts/content', get_post_format() );
+					get_template_part( 'includes/front/template-parts/content', 'page' );
 				}
 			}
 		?>
-		<div class="col-12">
-			<?php 
-				if ( function_exists( "csseco_bs_pagination" ) ) {
-					csseco_bs_pagination();
-				}
-			?>
-		</div>
 	</main>
 	<?php get_sidebar(); ?>
 
